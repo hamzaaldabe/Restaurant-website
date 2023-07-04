@@ -3,13 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   width: 100%;
 }
+
 body {
   width: 100%;
   overflow: hidden scroll;
 }
+
 .header {
   background-image: url("../img/header.jpg");
   height: 100vh;
@@ -18,45 +21,53 @@ body {
   padding: 0;
   z-index: 1;
 }
+
 .navbar {
   position: fixed;
   z-index: 3;
   display: inline-block;
   width: 100%;
 }
+
 .nav-container {
   width: 1240px;
   height: 90px;
   margin: auto;
 }
+
 .links {
   float: right;
   padding-top: 12px;
 }
+
 .smallLogo {
   position: absolute;
   float: left;
   padding-top: 18px;
   padding-left: 17px;
 }
-.inner-container{
+
+.inner-container {
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: 2;
 }
+
 .inner-content {
   margin: auto;
   width: 1240px;
   display: block;
 }
 
- .navbar ul {
+.navbar ul {
   list-style-type: none;
 }
+
 .navbar li {
   display: inline-block;
 }
+
 .navbar a {
   color: white;
   height: 100%;
@@ -69,6 +80,7 @@ body {
   font-family: "Alegreya";
   line-height: 33.4833px;
 }
+
 .inner-content h1 {
   font-size: 76px;
   font-weight: 400;
@@ -78,12 +90,14 @@ body {
   width: 100%;
   text-align: center;
 }
+
 .restaurant-logo {
   margin-left: 419px;
   margin-top: 161px;
   margin-bottom: 15px;
 }
-.inner-content p{
+
+.inner-content p {
   font-size: 40px;
   font-family: "Dancing Script";
   color: white;
@@ -91,40 +105,45 @@ body {
   width: 100%;
   text-align: center;
 }
-.section2{
+
+.section2 {
   width: 1920px;
   height: 1080px;
   display: inline-block;
-  
+
 }
-.image{
+
+.image {
   width: 50%;
   float: left;
   text-align: right;
   height: 1080px;
   margin-top: 80px;
 }
-.content{
+
+.content {
   width: 50%;
   float: left;
   height: 1080px;
   text-align: left;
   margin-top: 180px;
 }
-.section2 h2{
+
+.section2 h2 {
   font-size: 36px;
   font-family: "Alegreya";
   font-weight: 400;
 }
-.section2 h3{
-  color: rgb(193, 171, 132);
+
+.section2 h3 {
+  font-family: "Dancing Script";
   font-size: 28px;
-  font-family: "Alegreya Sans";
   font-weight: 400;
-  font-style: italic;
-  line-height: : 38.6333px;
+  line-height: 1.38em;
+  color: #c1ab84;
 }
-.section2 p{
+
+.section2 p {
   font-size: 18px;
   color: rgb(104, 104, 104);
   font-family: "Alegreya Sans";
@@ -133,9 +152,33 @@ body {
   height: 133px;
   line-height: 33.4833px
 }
-.section2 li{
-  display: inline-block;
+
+.section2 li {
   height: 30px;
+  margin-bottom: 8px;
+  padding-bottom: 15px;
+  padding-left: 66px;
+  padding-right: 0px;
+  padding-top: 15px
+}
+
+.icons ul {
+  list-style-type: none;
+}
+
+.icons span {
+  color: rgb(104, 104, 104);
+  font-family: "Alegreya Sans";
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.icons i {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(193, 171, 132);
+  border-radius: 50%;
+  text-align: center;
 }
 
 
@@ -148,9 +191,7 @@ body {
 
 
 
-
-
-.footer{
+.footer {
   color: #797979;
   font-size: 14px;
   background-color: #353330;
@@ -162,7 +203,8 @@ body {
   width: 100%;
   text-align: center;
 }
-.footer-upper{
+
+.footer-upper {
   background-color: #403d38;
   font-size: 16px;
   display: block;
@@ -172,14 +214,15 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.footer-container{
+
+.footer-container {
   color: #969696;
   font-size: 16px;
   display: inline-block;
   width: 60%;
 }
 
-.footer-col{
+.footer-col {
   width: 25%;
   padding-top: 35px;
   padding-bottom: 28px;
@@ -187,41 +230,44 @@ body {
   text-align: left;
 }
 
-.footer-list a{
+.footer-list a {
   color: #969696;
 }
 
-.footer-headers{
+.footer-headers {
   color: #ffff;
   font-family: Alegreya;
   font-size: 20px;
 }
 
-.footer-list li{
+.footer-list li {
   display: block;
 }
-.footer-list ul{
+
+.footer-list ul {
   list-style-type: none;
 }
 
-.icons-footer li{
+.icons-footer li {
   display: inline-block;
 }
-.icons-footer ul{
+
+.icons-footer ul {
   list-style-type: none;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .footer-bottom {
   width: 100%;
   display: block;
   text-align: center;
 }
 
-.footer-col p{
+.footer-col p {
   margin-top: 20px;
 }
 
-.footer-col li{
+.footer-col li {
   margin-top: 20px;
 }
