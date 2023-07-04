@@ -119,8 +119,8 @@ body {
 }
 
 .section2 {
-  width: 1920px;
-  height: 1080px;
+  width: 100%;
+  height: 930px;
   display: inline-block;
 
 }
@@ -128,15 +128,14 @@ body {
 .image {
   width: 50%;
   float: left;
+  height: 730px;
   text-align: right;
-  height: 1080px;
   margin-top: 80px;
 }
 
 .content {
   width: 50%;
   float: left;
-  height: 1080px;
   text-align: left;
   margin-top: 180px;
 }
@@ -185,6 +184,89 @@ body {
 }
 
 .icons i {
+  width: 52px;
+  height: 52px;
+}
+
+
+
+
+
+
+.section3 {
+  width: 1240px;
+  height: 664px;
+  padding-bottom: 90px;
+  padding-top: 90px;
+  margin: auto;
+
+}
+
+.image-sec3 {
+  width: 50%;
+  float: right;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.content-sec3 {
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+}
+
+.section3 h2 {
+  font-size: 36px;
+  font-family: "Alegreya";
+  font-weight: 400;
+  text-align: left;
+}
+
+.section3 h3 {
+  font-family: "Dancing Script";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.38em;
+  color: #c1ab84;
+  text-align: left;
+}
+
+.section3 p {
+  font-size: 18px;
+  color: rgb(104, 104, 104);
+  font-family: "Alegreya Sans";
+  font-weight: 400;
+  width: 565px;
+  height: 133px;
+  line-height: 33.4833px;
+  text-align: left;
+}
+
+.section3 li {
+  height: 30px;
+  margin-bottom: 8px;
+  padding-bottom: 15px;
+  padding-right: 0px;
+  padding-top: 15px;
+  text-align: left;
+}
+
+.icons-sec3 ul {
+  list-style-type: none;
+}
+
+.icons--sec3 span {
+  color: rgb(104, 104, 104);
+  font-family: "Alegreya Sans";
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.icons-sec3 i {
   width: 52px;
   height: 52px;
 }
@@ -278,4 +360,10 @@ body {
 
 .footer-col li {
   margin-top: 20px;
+}
+
+.footer-back{
+  background-image: url(../img/footerbackground.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
