@@ -51,13 +51,13 @@ body {
   display: block;
 }
 
-ul {
+ .navbar ul {
   list-style-type: none;
 }
-li {
+.navbar li {
   display: inline-block;
 }
-a {
+.navbar a {
   color: white;
   height: 100%;
   text-decoration: none;
@@ -135,4 +135,93 @@ a {
 }
 .section2 li{
   display: inline-block;
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  color: #797979;
+  font-size: 14px;
+  background-color: #353330;
+  position: relative;
+  display: inline-block;
+  font-family: "Alegreya";
+  font-weight: 400;
+  line-height: 1.86em;
+  width: 100%;
+  text-align: center;
+}
+.footer-upper{
+  background-color: #403d38;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-container{
+  color: #969696;
+  font-size: 16px;
+  display: inline-block;
+  width: 60%;
+}
+
+.footer-col{
+  width: 25%;
+  padding-top: 35px;
+  padding-bottom: 28px;
+  float: left;
+  text-align: left;
+}
+
+.footer-list a{
+  color: #969696;
+}
+
+.footer-headers{
+  color: #ffff;
+  font-family: Alegreya;
+  font-size: 20px;
+}
+
+.footer-list li{
+  display: block;
+}
+.footer-list ul{
+  list-style-type: none;
+}
+
+.icons-footer li{
+  display: inline-block;
+}
+.icons-footer ul{
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer-bottom {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.footer-col p{
+  margin-top: 20px;
+}
+
+.footer-col li{
+  margin-top: 20px;
 }
